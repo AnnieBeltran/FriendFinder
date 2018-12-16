@@ -4,8 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Friend Finder With Friends</title>
-	<link rel="shortcut icon" type="image/png" href="./assets/images/favicon (1).ico"/>
+  <title>Homie Finder With Friends</title>
+	<link rel="shortcut icon" href="./assets/images/favicon (1).ico" type="image/x-icon">
+	<link rel="icon" href="./assets/images/favicon (1).ico" type="image/x-icon">
 
     <!-- Link to the jQuery Library -->
     <script
@@ -17,7 +18,7 @@
     <script src="https://use.fontawesome.com/b38c8ed4c7.js"></script>
 
     <!-- Link to reset stylesheet -->
-    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
 
     <!-- Import Google Icon Font -->
     <link
@@ -43,7 +44,7 @@
         <div class="nav-wrapper black accent-2">
 		  <a href="/" class="brand-logo" id="logo">Where The Homies At?</a>
 
-		  <img id="logo-icon" width="100px" height = "70px" src="./assets/images/homies.jpg" />
+		  <img id="logo-icon" width="100px" height = "70px" src="./public/assets/images/homies.jpg" />
           <ul class="right hide-on-med-and-down" id="head-nav-links">
             <li><a href="./survey">Survey</a></li>
             <li><a href="./api/friends">API Friends List</a></li>
@@ -255,14 +256,14 @@
     <!-- Modal Dialog Displaying Closest Friend Match -->
     <div id="modal1" class="modal">
       <div class="modal-content">
-        <h4>Closest Friend Match</h4>
+        <h4>This The Homie, Right Here</h4>
         <div class="divider"></div>
         <h5 id="userMatch"></h5>
         <img id="userMatchImage" class="materialboxed" width="650" src="" />
       </div>
       <div class="modal-footer">
         <a
-          href="/survey"
+          href="./survey"
           class="modal-action modal-close waves-effect waves-green btn-flat"
           >Fill Again!</a>
       </div>
